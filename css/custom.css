@@ -1,0 +1,191 @@
+@font-face {
+    font-family: anaktoria;
+    src: url('../fonts/anaktoria-textfonts/Anaktoria.ttf');
+}
+
+.hero-pad-top {
+    padding-top: 50px;
+}
+
+.dito-h1 {
+    text-align: left;
+    padding-left: 100px;
+    line-height: 1;
+    font-size: 136px;
+    font-family: 'Great Vibes', cursive;
+    color: #8a5a08;
+    margin-bottom: 0;
+}
+
+.venty-h1 {
+    text-align: right;
+    padding-right: 100px;
+    line-height: 1;
+    font-size: 136px;
+    font-family: 'Great Vibes', cursive;
+    color: #8a5a08;
+    margin-bottom: 0;
+}
+
+.wayang-left {
+    position: absolute;
+    padding-top: 20px;
+    height: 375px;
+    left: -100px;    
+}
+
+.wayang-right {
+    text-align: right;
+    position: absolute;
+    padding-top: 20px;
+    height: 375px;
+    right: -100px;    
+}
+
+.date-header-text {
+    font-family: 'anaktoria';
+    font-size: 60px;
+    margin: 0;
+    line-height: 1;
+    color: #8a5a08;
+}
+
+.date-header-container {
+    padding-top: 75px;
+}
+
+.date-header-container.bottom-75 {
+    padding-bottom: 75px;
+}
+
+.text-header-getting-married {
+    font-family: 'Lemonada', cursive;
+    font-size: 44px;
+    color: #8a5a08 !important;
+}
+
+.ornamen-right-straight {
+    height: 125px;
+    right: 0;
+    position: absolute;
+    bottom: 0;    
+}
+
+.ornamen-left-straight {
+    height: 125px;
+    left: 0;
+    position: absolute;
+    bottom: 0;    
+}
+
+.ornamen-left-up {
+    height: 125px;
+    left: -50px;
+    position: absolute;
+    bottom: 125px;    
+}
+
+.ornamen-right-up {
+    height: 125px;
+    right: -50px;
+    position: absolute;
+    bottom: 125px;    
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+    
+  }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .dito-h1 {
+        font-size: 70px;
+        padding-left: 70px;
+    }
+
+    .venty-h1 {
+        font-size: 70px;
+        padding-right: 70px;
+    }
+
+    .wayang-left {
+        height: 330px;
+        left: -100px;
+    }
+    
+    .wayang-right {
+        height: 330px;
+        right: -100px;
+    }    
+
+    .fh5co-cover .display-tc {
+        padding-top: 100px;
+    }
+
+    .date-header-container {
+        padding-top: 100px;
+    }
+
+    .date-header-text {
+        font-size: 32px;
+    }
+
+    .text-header-getting-married {
+        font-size: 20px;
+    }
+
+    .ornamen-right-straight {
+        height: 70px;
+        right: 0;
+        position: absolute;
+        bottom: 0;    
+    }
+    
+    .ornamen-left-straight {
+        height: 70px;
+        left: 0;
+        position: absolute;
+        bottom: 0;    
+    }
+    
+    .ornamen-left-up {
+        height: 70px;
+        left: -50px;
+        position: absolute;
+        bottom: 70px;    
+    }
+    
+    .ornamen-right-up {
+        height: 70px;
+        right: -50px;
+        position: absolute;
+        bottom: 80px;    
+    }    
+
+    .hero-pad-top {
+        padding-top: 0;
+    }
+
+}

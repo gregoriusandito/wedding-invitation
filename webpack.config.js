@@ -28,7 +28,7 @@ module.exports = {
 
   entry: {
     // Will create "styles.css" in "css" dir.
-    "styles": './sass/styles.scss',
+    "styles": './sass/style.scss',
   },
 
   module: {
