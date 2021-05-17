@@ -118,7 +118,39 @@
     height: 125px;
     right: -50px;
     position: absolute;
-    bottom: 125px;    
+    bottom: 125px; 
+}
+
+.ornamen-right-straight-upper {
+    height: 125px;
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(-1);    
+}
+
+.ornamen-left-straight-upper {
+    height: 125px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(-1);    
+}
+
+.ornamen-left-up-upper {
+    height: 125px;
+    left: -50px;
+    position: absolute;
+    top: 125px;
+    transform: scaleY(-1);    
+}
+
+.ornamen-right-up-upper {
+    height: 125px;
+    right: -50px;
+    position: absolute;
+    top: 125px;
+    transform: scaleY(-1);    
 }
 
 .content-outer {
@@ -294,10 +326,77 @@
         right: -50px;
         position: absolute;
         bottom: 80px;    
-    }    
+    }
+    
+    .ornamen-right-straight-upper {
+        height: 70px;
+    }
+    
+    .ornamen-left-straight-upper {
+        height: 70px;
+    }
+    
+    .ornamen-left-up-upper {
+        height: 70px;
+        left: -50px;
+        position: absolute;
+        top: 70px;    
+    }
+    
+    .ornamen-right-up-upper {
+        height: 70px;
+        right: -50px;
+        position: absolute;
+        top: 80px;    
+    }
 
     .hero-pad-top {
         padding-top: 0;
+    }
+
+    .content-outer-frame {
+        margin: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }    
+
+    .second-page-preamble {
+        font-size: 14px;
+    }
+
+    .second-page-preamble-container {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .second-page-main-name {
+        font-size: 35px;
+    }
+
+    .second-page-parent-name-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .second-page-parent-name {
+        font-size: 18px;
+    }
+
+    .second-page-and-ornamen {
+        margin-top: 42px;
+        font-size: 35px
+    }
+
+    .second-page-quotes-img {
+        width: 200px;
+    }
+
+    .second-page-quotes-container {
+        margin-top: 100px;
+    }
+
+    .second-page-quotes-text {
+        font-size: 18px;
     }
 
 }
