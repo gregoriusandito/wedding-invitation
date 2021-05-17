@@ -50,8 +50,37 @@
     color: #8a5a08;
 }
 
+.date-header-text-th {
+    font-family: 'anaktoria';
+    font-size: 36px;
+    line-height: 1;
+    color: #8a5a08;
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+}
+
+.date-header-text-number {
+    font-family: 'Lemonada', cursive;
+    font-size: 72px;
+    margin: 0;
+    line-height: 1;
+    color: #8a5a08;
+}
+
+.date-header-inner-container {
+    position: relative;
+    padding-top: 20px;
+    margin: 5px;
+}
+
 .date-header-container {
     padding-top: 75px;
+}
+
+.date-header-container.up {
+    padding-top: 125px;
+    padding-bottom: 50px;
 }
 
 .date-header-container.bottom-75 {
@@ -92,6 +121,81 @@
     bottom: 125px;    
 }
 
+.content-outer {
+    position: relative;
+}
+
+.content-outer-frame {
+    margin: 48px;
+    border-radius: 20px;
+    background-color: #faedc1;
+    text-align: center;
+    padding: 48px;
+    position: relative;
+    overflow: hidden;
+}
+
+.second-page-preamble-container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.second-page-preamble {
+    font-size: 28px;
+    color: #8a5a08;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.second-page-name-container {
+    margin-top: 48px;
+}
+
+.second-page-and-ornamen {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 48px;
+    font-size: 72px;
+    color: #8a5a08;
+}
+
+.second-page-main-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+    color: #8a5a08;
+    margin-bottom: 0;
+}
+
+.second-page-parent-name-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.second-page-parent-name {
+    font-family: 'Quintessential', cursive;
+    font-size: 28px;
+    color: #b86619
+}
+
+.second-page-quotes-container {
+    margin-top: 150px;
+}
+
+.second-page-quotes-img {
+    width: 420px;
+}
+
+.second-page-quotes-text-container {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.second-page-quotes-text {
+    line-height: 1;
+    margin-bottom: 0;
+    font-size: 32px;
+    color: #b86619;
+    font-family: 'anaktoria';
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -150,6 +254,14 @@
 
     .date-header-text {
         font-size: 32px;
+    }
+
+    .date-header-text-th {
+        font-size: 32px;
+    }
+
+    .date-header-inner-container {
+        padding-top: 15px;
     }
 
     .text-header-getting-married {
