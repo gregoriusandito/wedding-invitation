@@ -264,7 +264,7 @@
 .third-page-title {
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 58px;
     color: #8a5a08;
     margin-bottom: 0;
 }
@@ -273,8 +273,20 @@
     padding-bottom: 20px;
 }
 
+.pad-bottom-36 {
+    padding-bottom: 36px;
+}
+
+.pad-top-40 {
+    padding-top: 40px;
+}
+
 .margin-bottom-0 {
     margin-bottom: 0;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
 
 .link {
@@ -285,16 +297,61 @@
     color: #b86619;
     text-decoration: underline;
 }
+
+.health-protocol-shape {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #8a5a08;
+    margin: 0 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.container.custom {
+    width: 670px;
+    font-size: 28px;
+    color: #8a5a08;
+    text-align: left;
+}
+
+.health-protocol-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.width-100-percent {
+    width: 100%;
+}
+
+.health-protocol-shape.round-border {
+    border: 1px #000;
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+    .second-page-preamble {
+        font-size: 24px;
+    }  
+
+    .preamble-max-width {
+        max-width: 500px;
+        margin: auto;
+    }
     /* CSS */
     
-  }
+}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -305,7 +362,7 @@
   
     /* CSS */
     
-  }
+}
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -464,5 +521,26 @@
     .third-page-title {
         font-size: 35px;
     }
+
+    .preamble-max-width {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .container.custom {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .health-protocol-shape {
+        width: 50px;
+        height: 50px;
+    }
+
+    .church-image.drink {
+        width: 100px;
+    }
+
 
 }
