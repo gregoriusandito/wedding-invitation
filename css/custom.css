@@ -277,8 +277,16 @@
     padding-bottom: 36px;
 }
 
+.pad-bottom-50 {
+    padding-bottom: 50px;
+}
+
 .pad-top-40 {
     padding-top: 40px;
+}
+
+.padding-top-150 {
+    padding-top: 150px;
 }
 
 .margin-bottom-0 {
@@ -335,6 +343,53 @@
 .health-protocol-shape.round-border {
     border: 1px #000;
 }
+
+.couple-image {
+    width: 50%;
+}
+
+.couple-name {
+    line-height: 1;
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color: #8a5a08;
+    margin-bottom: 0;
+}
+
+.wayang-container {
+    height: 480px;
+    position: relative;
+}
+
+.wayang-container.left {
+    margin-right: 20px;
+}
+
+.wayang-container.right {
+    margin-left: 20px;
+}
+
+
+.wayang-end-left {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    height: 100%;
+    transform: rotate(-30deg);
+}
+
+.wayang-end-right {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    height: 100%;
+    transform: rotate(30deg);
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -349,8 +404,22 @@
         max-width: 500px;
         margin: auto;
     }
-    /* CSS */
-    
+
+    .wayang-container {
+        height: 280px;
+    }
+
+    .wayang-end-left {
+        top: 20%;
+        height: 100%;
+        transform: rotate(-45deg);
+    }
+
+    .wayang-end-right {
+        top: 20%;
+        height: 100%;
+        transform: rotate(45deg);
+    }    
 }
 
 /* 
@@ -542,5 +611,22 @@
         width: 100px;
     }
 
+    .couple-name {
+        font-size: 60px;
+    }
 
+    .wayang-container {
+        height: 200px;
+        position: relative;
+    }
+
+    .wayang-container.left {
+        margin-right: 0;
+    }
+    
+    .wayang-container.right {
+        margin-left: 0;
+    }
+    
+    
 }
