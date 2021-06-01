@@ -209,7 +209,7 @@
 }
 
 .second-page-quotes-container {
-    margin-top: 150px;
+    margin-top: 128px;
 }
 
 .second-page-quotes-img {
@@ -227,6 +227,63 @@
     font-size: 32px;
     color: #b86619;
     font-family: 'anaktoria';
+}
+
+.church-image {
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.third-page-content-container {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #b86619;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.location-icon {
+    height: 24px;
+}
+
+.youtube-icon {
+    width: 60px;
+}
+
+.google-maps-icon {
+    height: 42px;
+}
+
+.third-page-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #8a5a08;
+    margin-bottom: 0;
+}
+
+.pad-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.link {
+    color: #b86619
+}
+
+.link:hover {
+    color: #b86619;
+    text-decoration: underline;
 }
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -263,7 +320,7 @@
 
     .venty-h1 {
         font-size: 70px;
-        padding-right: 70px;
+        padding-right: 85px;
     }
 
     .wayang-left {
@@ -397,6 +454,15 @@
 
     .second-page-quotes-text {
         font-size: 18px;
+    }
+
+    .third-page-content-container {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .third-page-title {
+        font-size: 35px;
     }
 
 }
