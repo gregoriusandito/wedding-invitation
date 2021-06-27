@@ -390,6 +390,18 @@
     transform: rotate(30deg);
 }
 
+.youtube-outer {
+    margin: 20px;
+}
+
+.youtube-button {
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px #af4d0e;
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px

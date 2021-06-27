@@ -148,19 +148,42 @@
 							<img class="display-inline-block location-icon" src="images/wedding/clipart2368050.png" alt="">
 							<span>Paroki Keluarga Kudus Cibinong</span>
 						</div>
-						<span class="display-block">at 08.00 WIB</span>	
+						<span class="display-block">at 09.00 WIB</span>	
 					</div>
 					<div class="pad-bottom-20">
 						<p class="margin-bottom-0">With all due respect, we invite you to our</p>
 						<p class="margin-bottom-0">Holy Matrimony Live Streaming</p>	
 					</div>
-					<div class="display-block youtube-outer">
-						<a href="https://www.youtube.com/c/KomsosParokiKeluargaKudusCibinong/videos" target="_blank" class="youtube-button">
+					<div class="display-block">
+						<a href="https://www.youtube.com" target="_blank">
 							<img class="display-inline-block youtube-icon" src="images/wedding/youtube_social_icon_red.png" alt="">
 							<span class="link">Click to watch</span>	
 						</a>
 					</div>
 				</div>
+				<img class="church-image drink" src="images/wedding/clipart1894940.png" alt="">
+				<div class="third-page-content-container">
+					<div class="pad-bottom-20">
+						<h3 class="third-page-title">Reception</h3>
+					</div>
+					<div class="pad-bottom-20">
+						<p class="margin-bottom-0">Will be held following standardized health protocols.</p>
+						<p class="margin-bottom-0">Please come early for safety measures.</p>	
+					</div>
+					<span class="display-block pad-bottom-20">at 11.00 - 12.30 WIB</span>
+					<div class="display-block pad-bottom-20">
+						<a href="https://goo.gl/maps/nTdJxFUnoaqtRzDRA" target="_blank">
+							<img class="display-inline-block location-icon" src="images/wedding/googlemaps.png" alt="">
+							<span class="link">RM Mang Kabayan Cibinong</span>	
+						</a>
+					</div>
+					<div class="display-block pad-bottom-20">
+						<a href="https://goo.gl/maps/nTdJxFUnoaqtRzDRA" target="_blank">
+							<span class="link">Click here to open Google Maps</span>
+						</a>
+					</div>
+				</div>
+
 				<img class="ornamen-right-straight-upper" src="images/wedding/right-straight-removebg-preview.png" alt="">
 				<img class="ornamen-right-up-upper" src="images/wedding/right-up-removebg-preview.png" alt="">	
 				<img class="ornamen-left-straight-upper" src="images/wedding/left-straight-removebg-preview.png" alt="">
@@ -171,6 +194,99 @@
 				<img class="ornamen-left-up" src="images/wedding/left-up-removebg-preview.png" alt="">	
 			</div>
 		</div>	
+
+		<div class="content-outer">
+			<div class="content-outer-frame">
+				<div class="pad-top-40">
+					<h3 class="third-page-title">Health Protocols</h3>
+				</div>
+				<div class="margin-top-40 pad-bottom-36">
+					<h4 class="second-page-preamble preamble-max-width">To prevent the spread of Covid-19, we would like to </h4>
+					<h4 class="second-page-preamble preamble-max-width">inform you some health protocols that need to follow:</h4>	
+				</div>
+
+				<div class="container custom pad-bottom-20">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="health-protocol-shape">
+								<img class="health-protocol-image" src="images/wedding/masker.png" alt="">								
+							</div>
+						</div>
+						<div class="col-xs-9">
+							<p class="margin-bottom-0">Wear a mask</p>
+							<p class="margin-bottom-0">during the wedding celebration</p>
+						</div>							
+					</div>
+				</div>
+				<div class="container custom pad-bottom-20">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="health-protocol-shape">
+								<img class="health-protocol-image" src="images/wedding/wash-hand.png" alt="">								
+							</div>
+						</div>
+						<div class="col-xs-9">
+							<p class="margin-bottom-0">Wash your hands</p>
+							<p class="margin-bottom-0">before entering the venue</p>
+						</div>							
+					</div>
+				</div>
+				<div class="container custom pad-bottom-20">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="health-protocol-shape">
+								<img class="health-protocol-image width-100-percent" src="images/wedding/do-not-handshake.png" alt="">								
+							</div>
+						</div>
+						<div class="col-xs-9">
+							<p class="margin-bottom-0">Do not handshake,</p>
+							<p class="margin-bottom-0">we do namaste hands only</p>
+						</div>							
+					</div>
+				</div>
+				<div class="container custom pad-bottom-20">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="health-protocol-shape">
+								<img class="health-protocol-image" src="images/wedding/keep-distance.png" alt="">								
+							</div>
+						</div>
+						<div class="col-xs-9">
+							<p class="margin-bottom-0">Keep distance</p>
+							<p class="margin-bottom-0">from others at least 1 meter</p>
+						</div>							
+					</div>
+				</div>
+				<div class="container custom pad-bottom-20">
+					<div class="row">
+						<div class="col-xs-3">
+							<div class="health-protocol-shape round-border">
+								<img class="health-protocol-image width-100-percent" src="images/wedding/not-allowed.png" alt="">
+								<img class="health-protocol-image" src="images/wedding/children-icon.png" alt="">								
+							</div>
+						</div>
+						<div class="col-xs-9">
+							<p class="margin-bottom-0">Children under 5 years old</p>
+							<p class="margin-bottom-0">not allowed</p>
+						</div>							
+					</div>
+				</div>
+
+				<div class="margin-top-40 pad-bottom-36">
+					<h4 class="second-page-preamble preamble-max-width">By following this health protocols, we hope all</h4>
+					<h4 class="second-page-preamble preamble-max-width">of us will protected from Covid-19</h4>	
+				</div>
+
+				<img class="ornamen-right-straight-upper" src="images/wedding/right-straight-removebg-preview.png" alt="">
+				<img class="ornamen-right-up-upper" src="images/wedding/right-up-removebg-preview.png" alt="">	
+				<img class="ornamen-left-straight-upper" src="images/wedding/left-straight-removebg-preview.png" alt="">
+				<img class="ornamen-left-up-upper" src="images/wedding/left-up-removebg-preview.png" alt="">	
+				<img class="ornamen-right-straight" src="images/wedding/right-straight-removebg-preview.png" alt="">
+				<img class="ornamen-right-up" src="images/wedding/right-up-removebg-preview.png" alt="">
+				<img class="ornamen-left-straight" src="images/wedding/left-straight-removebg-preview.png" alt="">
+				<img class="ornamen-left-up" src="images/wedding/left-up-removebg-preview.png" alt="">	
+			</div>
+		</div>
 
 		<div class="content-outer" style="background-color: #faedc1; overflow: hidden; text-align: center;">
 			<div class="padding-top-150 pad-bottom-50">
