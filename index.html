@@ -236,13 +236,16 @@
 		<script src="js/main.js"></script>
 
 		<script>
-			var d = new Date(2021, 7, 7);
+			var aestTime = new Date(2021, 07, 07, 08, 00, 00, 00).toLocaleString("en-US", {timeZone: "Asia/Jakarta"});
+			var d = new Date(aestTime);
 
 			// default example
 			simplyCountdown('.simply-countdown-one', {
 				year: d.getFullYear(),
 				month: d.getMonth() + 1,
-				day: d.getDate()
+				day: d.getDate(),
+				hours: d.getHours(),
+				minutes: d.getMinutes()
 			});
 
 			//jQuery example
@@ -250,7 +253,9 @@
 				year: d.getFullYear(),
 				month: d.getMonth() + 1,
 				day: d.getDate(),
-				enableUtc: false
+				hours: d.getHours(),
+				minutes: d.getMinutes(),
+				enableUtc: true
 			});
 		</script>
 
